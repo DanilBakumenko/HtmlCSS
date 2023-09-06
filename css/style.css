@@ -2,3 +2,76 @@
     font-family: Monstserrat Personal;
     src: url(../fonts/Montserrat-Medium.ttf);
 }
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.link1{
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+}
+
+.topic{
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.pStyle{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987
+}
+
+.topic2{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.Me{
+    border-radius: 10px;
+    width: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 600px;
+    align-items: flex-start;
+}
+
+.field{
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+input{
+    border: none;
+    outline: none;
+}
+
+.but{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
